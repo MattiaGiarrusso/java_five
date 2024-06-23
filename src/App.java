@@ -16,6 +16,7 @@ public class App {
 
         System.out.println("Qual è la tua età?");
         int age = scanner.nextInt();
+        scanner.nextLine();
 
         System.out.println("Hai " + age + " anni, complimenti!");
 
